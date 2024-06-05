@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+src/streaming/__init__.py
+src/streaming/streaming_services.py
+src/streaming.egg-info/PKG-INFO
+src/streaming.egg-info/SOURCES.txt
+src/streaming.egg-info/dependency_links.txt
+src/streaming.egg-info/requires.txt
+src/streaming.egg-info/top_level.txt

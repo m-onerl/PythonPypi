@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: streaming
+Version: 1.0.5
+Summary: Package communicated with streamingapp with one is about titles and authors
+Author-email: Sebastian Wołoszyn <sebastianwoloszyn01@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Build
+
+```bash
+python3 -m build
+```
+
+# Deploy
+
+```bash
+python3 -m twine upload --repository gitlab dist/* --verbose
+```
+
+# Login
+``` bash
+Użytkownik: __token__
+Hasło: glpat-a5yB1rsydVjppBpm7Zwt
+```

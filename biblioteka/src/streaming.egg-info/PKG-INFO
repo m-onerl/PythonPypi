@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: streaming
+Version: 1.0.2
+Summary: Package communicated with streamingapp with one is about titles and authors
+Author-email: Sebastian Wołoszyn <sebastianwoloszyn01@gmail.com>
+Project-URL: Homepage, https://git.e-science.pl/sebwol5310/lab10
+Project-URL: Issues, https://git.e-science.pl/sebwol5310/lab10/-/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.0.0
+
+# Build
+
+```bash
+python3 -m build
+```
+
+# Deploy
+
+```bash
+python3 -m twine upload --repository gitlab dist/* --verbose
+```
+
+# Login
+``` bash
+Użytkownik: __token__
+Hasło: glpat-a5yB1rsydVjppBpm7Zwt
+```
